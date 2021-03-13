@@ -1,4 +1,5 @@
-#program that asks a user to input a string and outputs every second letter 
+#my solution to weekly task 03
+# program that asks a user to input a string and outputs every second letter 
 # in reverse order
 #author: Susan Henry
 
