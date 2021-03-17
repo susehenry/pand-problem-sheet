@@ -16,8 +16,10 @@ while number % 2 == 0:
   print (number)
 else:
   number * 3 + 1
+   #if number == 1:
+   #break 
   print (number) 
-
+   
   #if number == 1:
     #   break 
 

@@ -7,18 +7,12 @@
 
 
 
-l=input("Enter letter to be searched:")
-x = 0
- 
-with open("moby-dick.txt", 'r') as f: # 'r' = read, opens a file for reading
-    for line in f:
-        words = line.split() #splits the line to form a list of words
-        for i in words:      # creates for loop to move through each word 
-            for letter in i: # creates another for loop moves through the letters in each word
-                if(letter==l): #if letter in text = letter in search it is added to count
-                    x=x+1
-print("Occurrences of the letter: {}" .format(x))
 
+with open ("moby-dick.txt", "rt") as file: #opens file in read mode
+    data = file.read() # reads content of file
+    es = data.count ("e") # counts the number of letter E's in text
+    print ( "Occurences of the letter E: {}" .format(es))
 
 
 #ref https://www.sanfoundry.com/python-program-read-file-counts-number/
+#ref https://pythonexamples.org/python-count-number-of-characters-in-text-file/ 
