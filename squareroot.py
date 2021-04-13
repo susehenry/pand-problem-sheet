@@ -3,27 +3,36 @@
 # and outputs an approximation of its square root
 #author: Susan Henry
 
-import math
+#import math 
 
+#define a function for calculating the square root
 tolerance = 0.000001
-def newton(x):
+def sqrt(x):
    estimate = 1.0
    while True:
-        estimate = (estimate + x / estimate) / 2
+        estimate = (estimate + x / estimate) / 2 #calcuation for square root
         difference = abs(x - estimate ** 2)
         if difference <= tolerance:
             break
    return estimate
 
+
+# main programme
 def main():
    while True:
        x = input("Enter a positive number or enter/return to quit: ")
        if x == "":
            break
        x = float(x)
-       print("The program's estimate is", newton(x))
-       print("Python's estimate is     ", math.sqrt(x))
+       print("The approximation of the square root is", sqrt(x)) # function sqrt called here
+      
 if __name__ == "__main__":
     main()
 
 # ref stackoverflow https://bit.ly/2ORqCGq     
+
+
+
+
+
+

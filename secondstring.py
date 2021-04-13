@@ -5,11 +5,15 @@
 
 
 secondString = input("Enter a string: ")
-print ('Output: {}' .format (secondString[::-1][::2])) 
 
-#from week 5 pands 5.1 lists and tuples video
+
 # [::-1] = reverses string
 # [::2] = outputs every second element
+
+print ('Output: {}' .format (secondString[::-1][::2])) 
+
+
+
 
 
 

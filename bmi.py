@@ -2,7 +2,8 @@
 # calcuate a persons body mass index
 # author: Susan Henry
 
-#input persons weight in kilograms and height in cms
+#Input persons weight in kilograms and height in cms
+#Using int will convert the number inputted into an interger which is need for the calculation
 weight = int (input ('Enter weight in kg:'))
 height = int (input ('Enter height in cms:'))
 
@@ -12,4 +13,4 @@ height = int (input ('Enter height in cms:'))
 bmi = round(weight / (height/100 * height/100), 2)
 
 # Display the result
-print ('Your BMI is: {}'. format (bmi) )
+print ('Your BMI is: {}'. format (bmi) ) 
