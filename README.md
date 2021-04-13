@@ -34,6 +34,9 @@ Program that asks the user to input any positive interger and outputs the succes
 Reference - Using python how do I repeatedly divide a number by 2 until it is less than 1.0? 
 https://stackoverflow.com/questions/40915757/using-python-how-do-i-repeatedly-divide-a-number-by-2-until-it-is-less-than-1-0
 
+Reference - Python IF...ELIF...ELSE Statements
+https://www.tutorialspoint.com/python/python_if_else.htm
+
  
 
 **Weekly Task 05**
@@ -78,6 +81,9 @@ https://www.sanfoundry.com/python-program-read-file-counts-number/
 
 Reference – Count Number of Characters in Text File
 https://pythonexamples.org/python-count-number-of-characters-in-text-file/ 
+
+Reference - With statement in Python 
+https://www.pythonforbeginners.com/files/with-statement-in-python
 
 
 
