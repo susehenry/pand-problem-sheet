@@ -18,7 +18,7 @@ Reference - https://www.tutorialspoint.com/python-program-to-calculate-bmi-body-
 
 Program that asks a user to input a string and outputs every second letter in reverse order.
 
-Reference - Programming and Scripting - week 5 pands 5.1 lists and tuples video
+Reference - Programming and Scripting course module - week 5, pands 5.1 lists and tuples video
 
 Reference -  What is :: (double colon) in Python when subscripting sequences? 
  https://stackoverflow.com/questions/3453085/what-is-double-colon-in-python-when-subscripting-sequences        
@@ -56,7 +56,10 @@ https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-
 
 A program that takes a positive floating-point number as input and outputs an approximation of its square root. 
 
-To gain an understanding  of the Newtons method and how to use in python please see first reference. 
+To gain an understanding  of the Newtons method and how it is used in python I researched online to find an explanation that made sense to me, 
+please see first reference for video of Newtons method in python. 
+However I still found it very difficult to produce my own code that worked in a program and therefore reasearched a program and 
+slightly amended it to fit the weekly task.
 For structure of code for the sqrt function and main progam please see second reference.
 
 Reference - Newton's Method in Python
